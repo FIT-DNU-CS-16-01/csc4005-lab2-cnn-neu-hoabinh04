@@ -1,0 +1,10 @@
+# Gợi ý phiên bản. Có thể dùng bản tương thích khác nếu máy đã có sẵn torch.
+torch>=2.2
+# Transfer learning cần torchvision tương thích với torch.
+torchvision>=0.17
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+Pillow>=10.0
+wandb>=0.16

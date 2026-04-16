@@ -1,0 +1,16 @@
+{
+  "project": "csc4005-lab2-neu-cnn",
+  "run_name": "cnn_small_baseline",
+  "model_name": "cnn_small",
+  "train_mode": "scratch",
+  "optimizer": "adamw",
+  "scheduler": "plateau",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.3,
+  "epochs": 20,
+  "batch_size": 32,
+  "img_size": 64,
+  "patience": 5,
+  "augment": true
+}
